@@ -1,5 +1,9 @@
 /* ------------------------------------------------------------------ */
+
+
 /* Basic Setup */
+
+
 /* ------------------------------------------------------------------ */
 
 * {
@@ -7,7 +11,6 @@
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    
 }
 
 html {
@@ -19,7 +22,10 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+    zoom: 1
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -28,8 +34,13 @@ html {
     visibility: hidden;
 }
 
+
 /* ------------------------------------------------------------------ */
+
+
 /* Reusables */
+
+
 /* ------------------------------------------------------------------ */
 
 .row {
@@ -37,13 +48,15 @@ html {
     margin: 0 auto;
 }
 
+
 /*buttons*/
+
+
 /* ---------------------------- */
 
 .btn:link,
 .btn:visited,
 input[type=submit] {
-    
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -53,7 +66,6 @@ input[type=submit] {
     border: 1px solid #00aced;
     transition: background-color 0.4s, border 0.4s, color 0.4s;
     transition: background-color 0.4s, border 0.4s, color 0.4s
-
 }
 
 .btn-full:link,
@@ -63,7 +75,6 @@ input[type=submit] {
     border: 1px solid #00aced;
     color: #fff;
     margin-right: 15px;
-    
 }
 
 .btn:hover,
@@ -74,7 +85,10 @@ input[type=submit]:active {
     border: 1px solid #0681af;
 }
 
+
 /*Icons*/
+
+
 /* ---------------------------- */
 
 .icon-big {
@@ -93,18 +107,21 @@ input[type=submit]:active {
 }
 
 
-
 /* ------------------------------------------------------------------ */
+
+
 /* Headings */
+
+
 /* ------------------------------------------------------------------ */
 
 h1,
 h2,
 h3 {
-    
     font-weight: 300;
     text-transform: uppercase;
 }
+
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -120,7 +137,6 @@ h2 {
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
-    
 }
 
 h2:after {
@@ -140,17 +156,19 @@ h3 {
 
 
 /* ------------------------------------------------------------------ */
+
+
 /* HEADER */
+
+
 /* ------------------------------------------------------------------ */
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.94), rgba(0,0,0,0.94)),url("img/kisspng-gear-technology-illustration-tech-background-elements-5a963f03abc2e4.7679257815197959717035.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("img/kisspng-gear-technology-illustration-tech-background-elements-5a963f03abc2e4.7679257815197959717035.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
-
-        
 }
 
 .hero-text-box {
@@ -158,8 +176,8 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .logo {
@@ -174,14 +192,14 @@ header {
     list-style: none;
     margin-top: 60px;
 }
-    
+
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
 }
 
 .main-nav li a:link,
-.main-nav li a:visited{
+.main-nav li a:visited {
     padding: 8px 0;
     color: #fff;
     text-decoration: none;
@@ -191,46 +209,54 @@ header {
     transition: border-bottom 0.4s;
     transition: border-bottom 0.4s;
 }
+
 .main-nav li a:hover,
-.main-nav li a:active{
+.main-nav li a:active {
     border-bottom: 2px solid #00aced;
 }
 
 
 /* ------------------------------------------------------------------ */
+
+
 /* Portfolio */
+
+
 /* ------------------------------------------------------------------ */
 
 .portfolio-section {
     background-color: #ededed;
     text-align: center;
     padding: 60px;
-    
 }
+
 .box-1 {
     padding: 0 50px;
     text-align: center;
 }
 
-.box-1 p{
-     width: 100%;
+.box-1 p {
+    width: 100%;
     padding: 7px;
     border-radius: 3px;
-    
 }
+
+
 /* ------------------------------------------------------------------ */
+
+
 /* About me 
 /* ------------------------------------------------------------------ */
 
 .section-about {
-    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),url("img/page-header.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("img/page-header.jpg");
     padding: 60px;
     margin: 0 auto;
     color: #f7f7f7;
     background-attachment: fixed;
 }
 
-.pbox img  {
+.pbox img {
     height: 300px;
     border-radius: 50%;
     margin-left: 80px;
@@ -245,18 +271,20 @@ header {
     border-radius: 3px;
 }
 
+
 /* ------------------------------------------------------------------ */
+
+
 /* Contact 
 /* ------------------------------------------------------------------ */
 
 .section-form {
     background-color: #ededed;
     padding: 60px;
-
 }
 
 .contact-form {
-    width:60%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -282,7 +310,10 @@ input[type=checkbox] {
     outline: none;
 }
 
+
 /* ------------------------------------------------------------------ */
+
+
 /* Footer 
 /* ------------------------------------------------------------------ */
 
@@ -311,7 +342,7 @@ footer {
 .footer-nav li:last-child,
 .social-links li:last-child {
     margin: 0;
-} 
+}
 
 .footer-nav li a:link,
 .footer-nav li a:visited,
@@ -323,6 +354,7 @@ footer {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
+
 .footer-nav li a:hover,
 .footer-nav li a:active {
     color: #ddd;
@@ -332,8 +364,6 @@ footer {
 .social-links li a:visited {
     font-size: 160%;
 }
-
-
 
 .ion-social-googleplus:hover {
     color: #dd4b39;
@@ -347,7 +377,6 @@ footer {
 .ion-social-linkedin {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
-    
 }
 
 footer p {
