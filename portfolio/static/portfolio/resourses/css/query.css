@@ -1,0 +1,32 @@
+    /* big tablet to  1023-1200px */
+    
+    @media only screen and (max-width: 1200px) {
+        .hero-text-box {
+            width: 100%;
+            padding: 0 2%;
+        }
+        .row {
+            padding: 0 2%
+        }
+    }
+    /* Small tablet to big tablets 767px-1023 */
+    
+    @media only screen and (max-width: 700) {
+        body {
+            font-size: 18px;
+        }
+        section {
+            padding: 60px 0;
+            width: 80%;
+        }
+        h1 {
+            margin-left: 100px;
+        }
+    }
+    /* Small phones to small tablets 481-767px */
+    
+    @media only screen and (max-width: 700px) {
+        .portfolio-section {
+            background-color: blue;
+        }
+    }
