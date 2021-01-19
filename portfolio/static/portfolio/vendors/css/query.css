@@ -1,0 +1,77 @@
+                    /* big tablet to  1023-1200px */
+                    
+                    @media only screen and (max-width: 1200px) {
+                        .hero-text-box {
+                            width: 100%;
+                            padding: 0 2%;
+                        }
+                        .row {
+                            padding: 0 2%;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 1024px) {
+                        .box-1 {
+                            width: 100%;
+                        }
+                        .pbox {
+                            width: 100%;
+                        }
+                    }
+                    /* Small phones to small tablets 481-767px */
+                    
+                    @media only screen and (max-width: 700px) {
+                        header {
+                            text-align: center;
+                        }
+                        .portfolio-section {
+                            padding: 40px;
+                        }
+                        .logo {
+                            display: none;
+                        }
+                        h1 {
+                            font-size: 150%;
+                        }
+                        h2 {
+                            font-size: 100%;
+                        }
+                        h3 {
+                            font-size: 80%;
+                        }
+                        .portfolio-section p {
+                            font-size: 15px;
+                        }
+                        .portfolio-section {
+                            padding: 10px;
+                        }
+                        .box-1 {
+                            width: 100%;
+                            padding: 0 25px;
+                        }
+                        .pbox {
+                            width: 100%;
+                        }
+                        .section-about p {
+                            font-size: 13px;
+                        }
+                        .section-about {
+                            padding: 20px;
+                        }
+                        .pbox img {
+                            height: 150px;
+                            border-radius: 50%;
+                            margin-left: 60px;
+                            vertical-align: right;
+                            margin-top: 30px;
+                        }
+                        .section-about p {
+                            width: 100%;
+                            line-height: 135%;
+                            padding-left: 30px;
+                            border-radius: 3px;
+                        }
+                        .section-form {
+                            padding: 20px;
+                        }
+                    }
