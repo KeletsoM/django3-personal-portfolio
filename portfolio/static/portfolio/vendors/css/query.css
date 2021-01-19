@@ -95,6 +95,9 @@
                             float: none;
                             list-style: none;
                             margin-top: 20px;
+                            margin-bottom: 30px;
                             border-bottom: 2px solid #00aced;
+                            margin-left: 80px;
+                            margin-right: 80px;
                         }
                     }
