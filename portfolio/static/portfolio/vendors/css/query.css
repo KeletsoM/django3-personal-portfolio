@@ -17,6 +17,17 @@
                         .pbox {
                             width: 100%;
                         }
+                        .main-nav li {
+                            display: block;
+                            margin-left: 20px;
+                            text-align: center;
+                            padding: 4px;
+                        }
+                        .main-nav {
+                            float: none;
+                            list-style: none;
+                            margin-top: 20px;
+                        }
                     }
                     /* Small phones to small tablets 481-767px */
                     
@@ -84,5 +95,6 @@
                             float: none;
                             list-style: none;
                             margin-top: 20px;
+                            border-bottom: 2px solid #00aced;
                         }
                     }
